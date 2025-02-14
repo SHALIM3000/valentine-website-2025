@@ -49,9 +49,10 @@ const CONFIG = {
 
   // Messages that appear after they say "Yes!"
   celebration: {
-    title: "jk if u don't like it just msg -no otherwise a yes with a smile will do",
-    message: "Hope u like the drawing",
-    emojis: "🎁💖🤗💝💋❤️💕", // These will bounce around
+    title:
+      "Would you like to go on a date with me :) Text me if yes, or else no worries, Take care ))",
+    //message: "Hope u like the drawing",
+    emojis: "", // These will bounce around
   },
 
   // Color scheme for the website
