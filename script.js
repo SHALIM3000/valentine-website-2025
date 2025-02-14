@@ -66,13 +66,13 @@ window.addEventListener("DOMContentLoaded", () => {
   // Set texts from config
   document.getElementById(
     "valentineTitle"
-  ).textContent = `${config.valentineName}, i have liked you for a while but`;
+  ).textContent = `${config.valentineName}, I have liked you for a while but`;
 
   // Set first question texts
   document.getElementById("question1Text").textContent =
     config.questions.first.text;
-  document.getElementById("yesBtn1").textContent =
-    config.questions.first.yesBtn;
+  //document.getElementById("yesBtn1").textContent =
+  //config.questions.first.yesBtn;
   document.getElementById("noBtn1").textContent = config.questions.first.noBtn;
   document.getElementById("secretAnswerBtn").textContent =
     config.questions.first.secretAnswer;
