@@ -123,11 +123,11 @@ function createFloatingElements() {
 }
 
 // Set random position for floating elements
-function setRandomPosition(element) {
-  element.style.left = Math.random() * 100 + "vw";
-  element.style.animationDelay = Math.random() * 5 + "s";
-  element.style.animationDuration = 10 + Math.random() * 20 + "s";
-}
+// function setRandomPosition(element) {
+//   element.style.left = Math.random() * 0 + "vw";
+//   element.style.animationDelay = Math.random() * 5 + "s";
+//   element.style.animationDuration = 10 + Math.random() * 20 + "s";
+// }
 
 // Function to show next question
 function showNextQuestion(questionNumber) {
